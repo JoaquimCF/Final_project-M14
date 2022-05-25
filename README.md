@@ -11,30 +11,30 @@ L'objectiu de la practica, era fer un projecte en parelles, pero bueno hem va to
 -registre/log in<br>
 -veure mangas<br>
 -veure detall<br>
--afegir al carrito
--comprar/finalizar compra
+-afegir al carrito<br>
+-comprar/finalizar compra<br>
 
 **fet part client:**
 
--registre/log in
--veure mangas
--veure detall
+-registre/log in<br>
+-veure mangas<br>
+-veure detall<br>
 
 
 **idea part botiga:**
 
--registre/log in
--veure mangas i detall
--afegir mangas
--borrar mangas
--update mangas
+-registre/log in<br>
+-veure mangas i detall<br>
+-afegir mangas<br>
+-borrar mangas<br>
+-update mangas<br>
 
 **fet part botiga:**
 
--registre/log in
--veure mangas i detall
--afegir mangas
--borrar mangas
+-registre/log in<br>
+-veure mangas i detall<br>
+-afegir mangas<br>
+-borrar mangas<br>
 
 
 
