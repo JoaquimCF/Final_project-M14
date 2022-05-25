@@ -3,6 +3,7 @@ proyecto final para m14, nihongo-mangas
 
 apiary.io => https://app.apiary.io/manga8/editor
 
+he tingut que possar el video en .rar perque no m'el deixaba ujar tal qual...
 
 L'objectiu de la practica, era fer un projecte en parelles, pero bueno hem va tocar-ho fer sol. La idea principal era fer una botica de mangas, i hem vaig envalentonar i vaig pensar en fer la part del front l'interficie de client i de la botiga. Pero vaig veure que seria molt aixi que vaig acabar fent una mix de les dues parts. Vaig acabar fent quasi tot el que tenia pensat, seguit possare els punts que tenia en ment:
 
