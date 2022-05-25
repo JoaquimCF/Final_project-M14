@@ -8,9 +8,9 @@ L'objectiu de la practica, era fer un projecte en parelles, pero bueno hem va to
 
 **idea part client:**
 
--registre/log in
--veure mangas
--veure detall
+-registre/log in<br>
+-veure mangas<br>
+-veure detall<br>
 -afegir al carrito
 -comprar/finalizar compra
 
