@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add-Mangas/Private Area</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg-formulari">
+  <ion-content class="formulari">
+    <ion-item>
+      <ion-label class="formulari-labels" position="floating">Nom</ion-label>
+      <ion-input [(ngModel)]="nom" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="formulari-labels" position="floating">Preu</ion-label>
+      <ion-input [(ngModel)]="preu" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="formulari-labels" position="floating">Data</ion-label>
+      <ion-input [(ngModel)]="data" type="text"></ion-input>
+    </ion-item>
+    <!-- <ion-item>
+      <input type="file" [(ngModel)]="imatge" (change)="selectedFile($event)" />
+   </ion-item> -->
+    <ion-button class="btn-formulari" type="button" (click)="addManga()">Add Manga</ion-button>
+  </ion-content>

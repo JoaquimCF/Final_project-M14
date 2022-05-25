@@ -1,0 +1,45 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modal</title>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@latest/css/ionic.bundle.css" />
+  <style>
+    :root {
+      --ion-safe-area-top: 20px;
+      --ion-safe-area-bottom: 22px;
+    }
+  </style>
+  <script type="module">
+    import { modalController } from 'https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/ionic/index.esm.js';
+    window.modalController = modalController;
+  </script>
+</head>
+
+<app-header titol="NIHONGO-MANGAS"></app-header>
+
+<ion-content>
+    <div *ngFor="let mg of mangas; let i=index">
+      <ion-item-sliding >
+        <ion-item-options side="end">
+          <ion-item-option color="danger" (click)="deleteManga(mg.id)">
+            Delete
+          </ion-item-option>
+          <ion-item-option  (click)="openModal(i)">Detail</ion-item-option>
+
+        </ion-item-options>
+        <ion-item routerLink="/detail/{{i}}">
+          
+        <ion-avatar slot="start">
+           <img src="{{mg.img}}" alt="{{mg.nom}}"/> 
+        </ion-avatar> 
+          <ion-label class="mangas_label">
+            <h2>Nom manga: {{mg.nom}}</h2>
+            <p>Preu: {{mg.preu}}</p>
+            <p>Data: {{mg.data}}</p>
+          </ion-label>
+        </ion-item>
+      </ion-item-sliding>
+      </div>
+</ion-content>

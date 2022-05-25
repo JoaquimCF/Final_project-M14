@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>{{manga.nom}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        <ion-button (click)="closeModal()">X</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center class="modal-info">
+        <img class="modal_img" src="{{manga.img}}" alt="{{manga.nom}}"/> 
+        <div class="modal-body">
+          Nom : {{manga.nom}} <br>
+          Preu : {{manga.preu}} <br>
+          Data : {{manga.data}} <br>
+        </div>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+
+</ion-content>

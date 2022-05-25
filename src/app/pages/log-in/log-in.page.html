@@ -1,0 +1,15 @@
+<app-header titol="Log In" bgcolor="secondary"></app-header>
+
+<ion-content class="bg-formulari">
+  <ion-content class="formulari">
+    <ion-item>
+      <ion-label class="log-in-labels" position="floating">User</ion-label>
+      <ion-input [(ngModel)]="email" type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="log-in-labels" position="floating">Password</ion-label>
+      <ion-input [(ngModel)]="password" type="password"></ion-input>
+    </ion-item>
+    <ion-button class="btn-log-in" type="button" href="" (click)="login()">Log In</ion-button>
+  </ion-content>
+</ion-content>
